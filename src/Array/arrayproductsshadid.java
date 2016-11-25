@@ -6,6 +6,7 @@ import java.util.Arrays;
 public class arrayproductsshadid {
 	public static void main(String[] args) {
 		int[] a = {2,7,3,4};
+		System.out.println("change for sourcetree")
 		print(arrayproducts(a));
 	}
 	
