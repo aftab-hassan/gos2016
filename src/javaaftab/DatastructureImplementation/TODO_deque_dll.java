@@ -1,5 +1,5 @@
-package datastructureimplementation;
+package javaaftab.DatastructureImplementation;
 
-public class deque_dll {
+public class TODO_deque_dll {
 
 }

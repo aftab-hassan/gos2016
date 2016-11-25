@@ -24,7 +24,7 @@ public class staticnonstaticreference {
 	/* Using non-static method inside static method */
 	static void grade()
 	{
-		write();
+		//write();
 	}
 	
 	/* Using non-static method inside non-static method */

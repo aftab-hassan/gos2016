@@ -9,7 +9,7 @@
  * with the terms and conditions stipulated in the agreement/contract
  * under which the software has been supplied.
  */
-package youtubeshell;
+package Searching;
 
 /**
  * @author aftabhassan
