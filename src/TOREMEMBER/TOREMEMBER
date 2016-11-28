@@ -1,0 +1,9 @@
+1. For stack, it's 'push and pop', not 'add and poll'
+Stack<Integer> myStack = new Stack<>();
+myStack.push( 5 );
+System.out.println( myStack );
+myStack.pop();
+System.out.println( myStack );        
+
+2.        
+        
