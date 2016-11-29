@@ -1,0 +1,17 @@
+I think if you want to find min hops, either BFS or DFS is equally good.
+
+This problem can be done using either BFS or DFS
+
+1. In case of BFS, you don't need any DP, because, even if you encounter a previous state
+
+1 -> 2 -  >  3
+^           /
+\---------</
+
+there is no way that, that would be lesser hops than the one already recorded.
+
+2. In case of DFS, DP would've been useful, but you can't do DP because nodes are interdependent on each other.
+So DFS with DP won't work, but plain DFS will surely work.
+
+That brings us, to the only remaining point of discussion, which is DFS vs BFS.
+For that there's no reason to use BFS over DFS, open to discussion. 

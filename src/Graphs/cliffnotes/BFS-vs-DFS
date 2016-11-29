@@ -1,0 +1,32 @@
+1) For searching
+----------------
+Depending on the data and what you are looking for, either DFS or BFS could be advantageous.
+
+BFS
+---
+For example, given a family tree if one were looking for someone on the tree who’s still alive,
+then it would be safe to assume that person would be on the bottom of the tree.
+This means that a BFS would take a very long time to reach that last level.
+
+DFS
+---
+A DFS, however, would find the goal faster. But, if one were looking for a family member who died a very long time ago,
+then that person would be closer to the top of the tree. Then, a BFS would usually be faster than a DFS.
+
+So, the advantages of either vary depending on the data and what you’re looking for.
+
+2) For finding min hops
+-----------------------
+Again, can't really say.
+
+In terms of coding
+------------------
+DFS
+1. Easier to implement, can use Recursion, but have to do Backtracking, and so chance of bugs
+   (In BFS, you don't need Backtracking because you never come back to a previous level, you finish everything at 
+   a level before proceeding forward)
+2. Not good if tree is very deep
+3. Uses stack at every level, so high space complexity
+4. Don't have to maintain an additional todo queue to remember the list of nodes to be visited
+
+BFS 
