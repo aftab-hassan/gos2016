@@ -1,4 +1,4 @@
-package Graphs.shortest_distance_between_2_nodes;
+package Graphs.minimummaximum_hops_between_2nodes;
 
 import java.util.ArrayList;
 

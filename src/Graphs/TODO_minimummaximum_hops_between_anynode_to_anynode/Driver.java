@@ -9,7 +9,7 @@
  * with the terms and conditions stipulated in the agreement/contract
  * under which the software has been supplied.
  */
-package Graphs.shortest_distance_between_2_nodes;
+package Graphs.TODO_minimummaximum_hops_between_anynode_to_anynode;
 /**
  * @author aftabhassan
  *
@@ -60,11 +60,17 @@ public class Driver {
         
         graph.addEdge( "H", "G" );
         
+        System.out.println( BFS2Queues.distBFS2Queues( graph.getVertex( "A" ), graph.getVertex( "I" ) ) );
+        for(String vertexName : graph.vertices.keySet()){graph.vertices.get(vertexName).visited = false;}
         
-//        System.out.println( graph.distBFSHashtable( graph.getVertex( "A" ), graph.getVertex( "I" ) ) );
-//        System.out.println( graph.distBFS2Queues( graph.getVertex( "A" ), graph.getVertex( "I" ) ) );
-//        System.out.println( graph.DFSrecursive( graph.getVertex( "A" ), graph.getVertex( "I" ) ) );
-        System.out.println( graph.DFSExplicitStack( graph.getVertex( "A" ), graph.getVertex( "I" ) ) );
+        System.out.println( BFSHashtable.distBFSHashtable( graph.getVertex( "A" ), graph.getVertex( "I" ) ) );
+        for(String vertexName : graph.vertices.keySet()){graph.vertices.get(vertexName).visited = false;}
+        
+        System.out.println( Backtracking.Backtracking_EarlierusedtocallDFS( graph.getVertex( "A" ), graph.getVertex( "I" ) ) );
+        for(String vertexName : graph.vertices.keySet()){graph.vertices.get(vertexName).visited = false;}
+        
+        System.out.println( BacktrackingExplicitStack.DFSExplicitStack( graph.getVertex( "A" ), graph.getVertex( "I" ) ) );
+        for(String vertexName : graph.vertices.keySet()){graph.vertices.get(vertexName).visited = false;}
     }
 
 }

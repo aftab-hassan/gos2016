@@ -25,7 +25,7 @@ public class spaceseparatedintegers {
 	 */
 	static void validate(int[][] a) throws IOException
 	{
-		Scanner stdin = new Scanner(new BufferedReader(new FileReader("src\\Week1_Day1\\input")));
+		Scanner stdin = new Scanner(new FileReader("src\\Week1_Day1\\input"));
 		
 		while(stdin.hasNext())
 		{

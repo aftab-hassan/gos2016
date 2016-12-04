@@ -26,7 +26,7 @@ public class commaseparatedintegers_9oneachline {
 	 */
 	static void validate(int[][] a) throws IOException
 	{
-		Scanner stdin = new Scanner(new BufferedReader(new FileReader("src\\Week1_Day1\\input2")));
+		Scanner stdin = new Scanner(new FileReader("src\\Week1_Day1\\input2"));
 		int count = 0;
 		
 		while(stdin.hasNext())

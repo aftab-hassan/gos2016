@@ -1,6 +1,7 @@
 /Array/
 /ArrayList/
 /Backtracking/
+/DP/
 /FileReading/
 /Graphs/
 /Heaps/
@@ -9,10 +10,10 @@
 /Sorting/
 /Stack/
 /Strings/
+/TODO/
+/TOREMEMBER/
 /Timecomplexity/
 /Trees/
 /javaaftab/
-/shortest_distance_between_2_nodes/
-/TODO/
-/TOREMEMBER/
-/DP/
+/ReadFromStdin/
+/Input/

@@ -9,7 +9,7 @@
  * with the terms and conditions stipulated in the agreement/contract
  * under which the software has been supplied.
  */
-package Graphs;
+package Graphs.snakes_and_ladders;
 
 import java.util.Hashtable;
 import java.util.LinkedList;
