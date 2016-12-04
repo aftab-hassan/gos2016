@@ -9,14 +9,14 @@
  * with the terms and conditions stipulated in the agreement/contract
  * under which the software has been supplied.
  */
-package Backtracking;
+package Graphs.min_knight_moves_navneet;
 
 import java.util.Arrays;
 
 /**
  * @author aftabhassan
  */
-public class knightminmoves {
+public class knightminmoves_BACKTRACKING {
 
     /**
      * @param args
