@@ -1,0 +1,14 @@
+In the above question, you are given like
+Docs    Integers
+d1   -> 1, 2, 3
+d2   -> 2,3
+d3   -> 1,3,5
+
+But what if you are given like
+Docs -> Docs
+d1   -> d2, d3, d4
+d2   -> d1, d3
+d3   -> d4
+Then how will you find the connected components
+A : This is exactly what a graph is. Just do BFS, that is all.
+ 
