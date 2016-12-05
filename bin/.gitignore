@@ -1,10 +1,11 @@
 /Array/
 /ArrayList/
-/Backtracking/
 /DP/
 /FileReading/
 /Graphs/
 /Heaps/
+/Input/
+/ReadFromStdin/
 /Recursion/
 /Searching/
 /Sorting/
@@ -15,7 +16,4 @@
 /Timecomplexity/
 /Trees/
 /javaaftab/
-/ReadFromStdin/
-/Input/
-/FrequentMistakes/
-/CheatGraph/
+/Backtracking/
