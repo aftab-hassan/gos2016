@@ -1,0 +1,23 @@
+1.Queue<Integer> myQueue = new LinkedList<>();
+So Queue is defined but not defined ? What?
+
+2. Arrays.asList
+/* comma separated list of watchers */
+            else if(line.length() != 0)
+            {
+                List<String> watchers = Arrays.asList( line.split( "," ) );
+                map.put( project, watchers );
+            }
+
+3. public void populateMap() throws FileNotFoundException
+
+4.String baseurl = "git@github.build.ge.com:evergreen/";
+        Set<String> urls = map.keySet();
+        String url1 = urls.iterator().next().toString();
+        urls.clear();
+        urls.add( url1 );
+
+        Set<String> mySet = new HashSet<>();
+        for(int i = 0;i<10;i++)
+            mySet.add( "hello" + String.valueOf( (int)(Math.random()*20) ));
+        System.out.println( mySet );
