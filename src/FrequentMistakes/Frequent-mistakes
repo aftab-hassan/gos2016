@@ -3,4 +3,8 @@
 2. str.length();
    arr.length;
    
-3.
+3. I can't believe I initialized a Hashtable as,
+   Hashtable<Integer> myHashtable = new Hashtable<>();
+   
+   It should be
+   Hashtable<Integer, Integer> myHashtable = new Hashtable<>();
