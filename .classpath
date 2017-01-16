@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="Graphs/TODO_minimummaximum_hops_between_anynode_to_anynode/Driver.java|Graphs/TODO_minimummaximum_hops_between_anynode_to_anynode/Graph.java|PriorityQueue/FindTopKRepeatingCharacters_AliAyyash_forwhile.java|PriorityQueue/FindTopKRepeatingCharacters_AliAyyash_next.java|PriorityQueue/PriorityQueueComparatorExample.java|PriorityQueue/MergeKArrays.java" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -3,4 +3,14 @@
 2. str.length();
    arr.length;
    
-3.
+3. I can't believe I initialized a Hashtable as,
+   Hashtable<Integer> myHashtable = new Hashtable<>();
+   
+   It should be
+   Hashtable<Integer, Integer> myHashtable = new Hashtable<>();
+   
+4. dictionary.containsKey
+
+5. Use HashSet in place of Hashtable<Key, Boolean-AlwaysTrue> 
+
+6. Not using all of the input parameters given, here, k
